@@ -1,15 +1,15 @@
 # outsource
-This repo represents PHP Library outsource folder for demonstrations and PHP unit tests. Just navigate to the root of PHP Library and clone this repository.
+This repo contains PHP Library outsource folder for demonstrations and PHP unit tests. In order to use it you'll have to clone repository to the root of PHP Library and unzip archive.
 
-```
-$ git clone https://github.com/php-library-league/outsource.git
-```
+```bash
+# Clone repository
+git clone https://github.com/php-library-league/outsource.git
 
-After this step you will be able to change contents of outsource folder in order to develop or test PHP Library. If you want to get latest working copy of outsource folder, just download and unzip it in root directory.
+# Unzip zip archive
+unzip outsource/archive.zip -d outsource/
 
-```
-$ wget https://link.zlatanstajic.com/software/php-library/outsource.zip
-$ unzip outsource.zip
+# Run PHPUnit tests
+composer run phpunit
 ```
 
 That's it.
